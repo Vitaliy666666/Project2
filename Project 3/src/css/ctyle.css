@@ -24,3 +24,30 @@ header {
     color: #000000;
     padding-right: 40px;
 }
+.subheader {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 84px;
+}
+.subheader .item_promo{
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 17px;
+}
+.subheader .subheader_official{
+    margin-top: 6px;
+    font-size: 13px; 
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.subheader .subheader_item{
+    margin-top: 24px;
+    Font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.subheader .subheader_phone{
+    Line-height: 35px;
+    color:#FFFFFF;
+    text-decoration: none;
+    text-align: right;
+}
