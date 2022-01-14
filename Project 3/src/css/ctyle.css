@@ -41,7 +41,7 @@ header .container{
     font-weight: 400;
 }
 .subheader .subheader_item{
-    margin-top: 24px;
+    margin-top: 19px;
     Font-size: 12px;
     color: #FFFFFF;
     font-weight: 300;
@@ -55,4 +55,17 @@ header .container{
     text-decoration: none;
     text-align: right;
     font-weight: 400;
+}
+.subheader .sub_btn{
+    margin-top: 19px;
+    height: 46px;
+    width: 172px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    Font-size: 14px;
+    color:#FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+
 }
