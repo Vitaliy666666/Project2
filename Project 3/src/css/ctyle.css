@@ -20,6 +20,7 @@ header .container{
     color:#FFFFFF;
     font-size: 15px;
     font-weight: 300;
+    text-decoration: none;
 }
 .menu .menu_item {
     border-right: 2px dotted black;
@@ -70,6 +71,28 @@ header .container{
     text-transform: uppercase;
 }
 .promo {
-    height: 719px;
+    background: url(../img/img_bg/uber_bg.png);
+    height: 800px;
+
+}
+.promo .promo_header{
+    margin: 0px;
+    Font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.promo .promo_subheader{
+    margin: 0px;
+    margin-top: 23px;
+    font-size: 48px; 
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 60px;
+
 
 }
