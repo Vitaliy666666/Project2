@@ -78,7 +78,7 @@ header .container{
     background: url(../img/img_bg/uber_bg.png);
     height: 800px;
     z-index: 1;
-    padding: 124px;
+    padding: 142px;
 
 }
 .promo .promo_header{
@@ -93,12 +93,33 @@ header .container{
 .promo .promo_subheader{
     margin: 0px;
     margin-top: 23px;
-    font-size: 48px; 
+    font-size: 36px; 
     text-align: center;
     color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+.promo .descr_promo{
+    font-size: 18px;
+    font-weight: 400;
+    Line-height: 24px;
+    margin-top: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.promo .promo_btn{
+    display: block;
+    margin: 120px auto 0 auto;
+    Width:259px;
+    height :63px;
+    border-radius: 4px;
+    border: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -4px 0px 0px #0000001F inset;
     font-weight: 400;
     text-transform: uppercase;
-    line-height: 60px;
-
-
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 18px;
 }
