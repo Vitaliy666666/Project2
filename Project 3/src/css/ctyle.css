@@ -123,3 +123,30 @@ header .container{
     text-align: center;
     font-size: 18px;
 }
+.info {
+    height: 864px;
+    color:#FFFFFF;
+}
+.info .info_label{
+    margin: 20px auto;
+    background: #000000;
+    padding: 6px 11px;
+    height: 27px;
+    width: 115px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    Font-size: 11px;
+}
+.info .info_title{
+    display: block;
+    margin: 35px auto 0 auto;
+    font-weight: 700;
+    color:#000000;
+    text-align: center;
+    Font-size: 38px;
+    text-transform: uppercase;
+
+
+}
