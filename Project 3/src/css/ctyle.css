@@ -123,12 +123,11 @@ header .container{
     text-align: center;
     font-size: 18px;
 }
-.info {
-    height: 864px;
-    color:#FFFFFF;
+.info{
+    padding: 20px 0 64px 0;
 }
-.info .info_label{
-    margin: 20px auto;
+.info_label{
+    margin: 0 auto;
     background: #000000;
     padding: 6px 11px;
     height: 27px;
@@ -139,14 +138,43 @@ header .container{
     font-weight: 300;
     Font-size: 11px;
 }
-.info .info_title{
-    display: block;
-    margin: 35px auto 0 auto;
+.info_title{
+    margin-bottom: 0;
+    margin-top: 38px;
     font-weight: 700;
-    color:#000000;
+    color:#222222;
     text-align: center;
     Font-size: 38px;
     text-transform: uppercase;
+}
+.info .info_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.info .info_wrapper .info_round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1EACC7;
+    width: 116px;
+    height: 116px;
+    border-radius:100%;
+}
+.info .info_wrapper .info_section{
+    width: 341px;
+}
 
-
+.info .info_wrapper .info_section .info_descr_header {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+.info .info_wrapper .info_section .info_descr_text{
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
 }
