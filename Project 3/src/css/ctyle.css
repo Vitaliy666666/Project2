@@ -184,3 +184,7 @@ header .container{
     font-weight: 300;
     line-height: 21px;
 }
+.application {
+    background: url(../img/img_bg/mobile_bg.png) center center / no-repeat ;
+    height: 864px;
+}
