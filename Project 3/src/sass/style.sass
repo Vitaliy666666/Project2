@@ -1,194 +1,203 @@
-*
-  	font-family: 'Roboto',sans-serif
+$var1: #212121
+$var2: #FFFFFF
+$var3: #000000
+$var4: #222222
+$var5: #1EACC7
+$var6: #1eacc7
+$var7: #202020
 
-nav
+* 
+	font-family: 'Roboto',sans-serif
+
+nav 
 	position: fixed
 	width: 100%
 	z-index: 3
 	height: 50px
-	background-color: #212121
+	background-color: $var1
 
-header .container
+header .container 
 	height: 50px
 	max-width: 1140px
 
-.menu
+.menu 
 	display: flex
 	list-style-type: none
 	padding: 13px 72px
 	justify-content: space-between
 	margin: 0
+	.menu_link 
+		color: $var2
+		font-size: 15px
+		font-weight: 300
+		text-decoration: none
+	
+	.menu_item 
+		border-right: 2px dotted black
+		padding-right: 28px
+	
 
-  	.menu_link
-    color: #FFFFFF
-    font-size: 15px
-    font-weight: 300
-    text-decoration: none
-
-  	.menu_item
-    border-right: 2px dotted black
-    padding-right: 28px
-
-.subheader
+.subheader 
 	position: relative
 	background-color: rgba(0, 0, 0, 0.6)
 	height: 84px
 	z-index: 2
 	top: 50px
+	.item_promo 
+		display: block
+		max-width: 100%
+		margin-top: 17px
+	
+	.subheader_official 
+		margin-top: 6px
+		font-size: 13px
+		color: $var2
+		font-weight: 400
+	
+	.subheader_item 
+		margin-top: 19px
+		Font-size: 12px
+		color: $var2
+		font-weight: 300
+		text-align: right
+	
+	.subheader_phone 
+		display: block
+		margin-top: 3px
+		font-size: 22px
+		color: $var2
+		text-decoration: none
+		text-align: right
+		font-weight: 400
+	
+	.sub_btn 
+		margin-top: 19px
+		height: 46px
+		width: 172px
+		border: none
+		border-radius: 4px
+		box-shadow: inset 0 -3px rgba(0, 0, 0, 0.12)
+		background: linear-gradient( 0deg, $var5 0%, #4CE2FF 100%)
+		Font-size: 14px
+		color: $var2
+		font-weight: 400
+		text-transform: uppercase
+	
 
-  	.item_promo
-    display: block
-    max-width: 100%
-    margin-top: 17px
-
-  	.subheader_official
-    margin-top: 6px
-    font-size: 13px
-    color: #FFFFFF
-    font-weight: 400
-
-  	.subheader_item
-    margin-top: 19px
-    Font-size: 12px
-    color: #FFFFFF
-    font-weight: 300
-    text-align: right
-
-  	.subheader_phone
-    display: block
-    margin-top: 3px
-    font-size: 22px
-    color: #FFFFFF
-    text-decoration: none
-    text-align: right
-    font-weight: 400
-
-  	.sub_btn
-    margin-top: 19px
-    height: 46px
-    width: 172px
-    border: none
-    border-radius: 4px
-    box-shadow: inset 0 -3px rgba(0, 0, 0, 0.12)
-    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
-    Font-size: 14px
-    color: #FFFFFF
-    font-weight: 400
-    text-transform: uppercase
-
-.promo
+.promo 
 	position: relative
 	margin-top: -84px
-	background: url(../img/img_bg/uber_bg.png) center (center / cover) no-repeat
+	background: url(../img/img_bg/uber_bg.png) center center /cover no-repeat ;
 	height: 800px
 	z-index: 1
 	padding: 142px
-
-	.promo_header
+	.promo_header 
 		margin: 0px
 		Font-size: 60px
 		font-weight: 700
-		color: #FFFFFF
+		color: $var2
 		text-align: center
 		text-transform: uppercase
 		line-height: 60px
-
-  	.promo_subheader
+	
+	.promo_subheader 
 		margin: 0px
 		margin-top: 23px
 		font-size: 36px
 		text-align: center
-		color: #FFFFFF
+		color: $var2
 		font-weight: 700
 		text-transform: uppercase
 		line-height: 36px
-
-  	.descr_promo
+	
+	.descr_promo 
 		font-size: 18px
 		font-weight: 400
 		Line-height: 24px
 		margin-top: 34px
 		text-align: center
-		color: #FFFFFF
-
-  	.promo_btn
+		color: $var2
+	
+	.promo_btn 
 		display: block
 		margin: 120px auto 0 auto
 		Width: 259px
 		height: 63px
 		border-radius: 4px
 		border: none
-		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
-		box-shadow: 0px -4px 0px 0px #0000001F inset
+		background: linear-gradient(0deg, $var5 0%, #4CE2FF 100%)
+		box-shadow: 0px -4px 0px 0px $var3 inset
 		font-weight: 400
 		text-transform: uppercase
-		color: #FFFFFF
+		color: $var2
 		text-align: center
 		font-size: 18px
+	
 
-.info
-  	padding: 20px 0 64px 0
-
-.info_label
-	margin: 0 auto
-	background: #000000
-	padding: 6px 11px
-	height: 27px
-	width: 115px
-	color: #FFFFFF
-	text-transform: uppercase
-	text-align: center
-	font-weight: 300
-	Font-size: 11px
-
-.info_title
-	margin-bottom: 0
-	margin-top: 38px
-	font-weight: 700
-	color: #222222
-	text-align: center
-	Font-size: 38px
-	text-transform: uppercase
-
-.info .info_wrapper
-	display: flex
-	justify-content: center
-	align-items: center
-	margin-top: 35px
-
-  	.info_round
-    display: flex
-    justify-content: center
-    align-items: center
-    background-color: #1EACC7
-    width: 113px
-    height: 113px
-    border-radius: 100%
-    margin-right: 26px
-
-  	.info_section
-    	width: 341px
-
-    .info_descr_header
-		line-height: 21px
-		color: #1eacc7
-		font-size: 17px
-		font-weight: 400
-
-	.info_descr_text
-		color: #202020
-		font-size: 15px
+.info 
+	padding: 20px 0 64px 0
+	&_label 
+		margin: 0 auto
+		background: $var3
+		padding: 6px 11px
+		height: 27px
+		width: 115px
+		color: $var2
+		text-transform: uppercase
+		text-align: center
 		font-weight: 300
-		line-height: 21px
+		Font-size: 11px
+	
+	&_title 
+		margin-bottom: 0
+		margin-top: 38px
+		font-weight: 700
+		color: $var4
+		text-align: center
+		Font-size: 38px
+		text-transform: uppercase
+	
+	.info_wrapper 
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-top: 35px
+		.info_round 
+			display: flex
+			justify-content: center
+			align-items: center
+			background-color: $var5
+			width: 113px
+			height: 113px
+			border-radius: 100%
+			margin-right: 26px
+		
+		.info_section 
+			width: 341px
+			.info_descr_header 
+				line-height: 21px
+				color: $var6
+				font-size: 17px
+				font-weight: 400
+			
+			.info_descr_text 
+				color: $var7
+				font-size: 15px
+				font-weight: 300
+				line-height: 21px
+			
+		
+	
 
-.application
+.application 
 	margin-top: 48px 0 80px 0
-	background: url(../img/img_bg/mobile_bg.png) center (center / cover) no-repeat
+	background: url(../img/img_bg/mobile_bg.png) center center /cover no-repeat ;
 	height: 864px
+	&_subtitle 
+		margin-top: 19px
+		text-align: center
+		font-size: 17px
+		font-weight: 300
+		color: $var4
+	
 
-.application_subtitle
-	margin-top: 19px
-	text-align: center
-	font-size: 17px
-	font-weight: 300
-	color: #222222
