@@ -149,8 +149,10 @@ header .container
 		font-weight: 300
 		Font-size: 11px
 		&_white
+			position: relative
 			background-color: $var2
 			color: #070716;
+			z-index: 3
 
 	&_title 
 		margin-bottom: 0
@@ -161,6 +163,8 @@ header .container
 		Font-size: 38px
 		text-transform: uppercase
 		&_white
+			position: relative
+			z-index: 3
 			color: $var2
 	
 	.info_wrapper 
@@ -207,6 +211,8 @@ header .container
 		color: $var4
 		&_white
 			color: $var2
+			position: relative
+			z-index: 3
 	&_item
 		position: relative
 		width: 320px
@@ -249,7 +255,28 @@ header .container
 		text-align: center
 		color: $var2
 .auto
+	position: relative
 	min-height: 889px
 	padding: 56px 0 137px 0
 	background: url('../img/img_bg/White_bg.png') center center/cover no-repeat
-	
+	&_img
+		position: relative
+		display: block
+		margin: 56px auto 0 auto
+		z-index: 2
+	&_descr
+		color: $var4
+		font-weight: 300
+		font-size: 17
+		text-align: center
+	.black
+		position: absolute 
+		top: 0
+		left: 0
+		height: 499px
+		width: 100%
+		background-color: #070716
+		z-index: 1
+
+
+
