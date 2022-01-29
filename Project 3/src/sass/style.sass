@@ -3,8 +3,13 @@ $var2: #FFFFFF
 $var3: #000000
 $var4: #222222
 $var5: #1EACC7
-$var6: #1eacc7
+$var6: #4CE2FF
 $var7: #202020
+
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $var5
 
 * 
 	font-family: 'Roboto',sans-serif
@@ -77,12 +82,12 @@ header .container
 		border: none
 		border-radius: 4px
 		box-shadow: inset 0 -3px rgba(0, 0, 0, 0.12)
-		background: linear-gradient( 0deg, $var5 0%, #4CE2FF 100%)
+		background: linear-gradient( 0deg, $var5 0%, $var6 100%)
 		Font-size: 14px
 		color: $var2
 		font-weight: 400
 		text-transform: uppercase
-	
+		+btn_hover
 
 .promo 
 	position: relative
@@ -126,13 +131,14 @@ header .container
 		height: 63px
 		border-radius: 4px
 		border: none
-		background: linear-gradient(0deg, $var5 0%, #4CE2FF 100%)
+		background: linear-gradient(0deg, $var5 0%, $var6 100%)
 		box-shadow: 0px -4px 0px 0px $var3 inset
 		font-weight: 400
 		text-transform: uppercase
 		color: $var2
 		text-align: center
 		font-size: 18px
+		+btn_hover
 	
 
 .info 
@@ -187,7 +193,7 @@ header .container
 
 			&_descr_header 
 				line-height: 21px
-				color: $var6
+				color: $var5
 				font-size: 17px
 				font-weight: 400
 			
