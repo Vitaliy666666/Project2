@@ -6,6 +6,7 @@ $var5: #1EACC7
 $var6: #4CE2FF
 $var7: #202020
 
+
 =btn_hover
 	&:hover
 		background-image: none
@@ -254,7 +255,13 @@ header .container
 			background: $var3
 			margin: 0 auto
 			cursor: pointer
-			
+			&:before
+				content: '' 
+				display: block
+				width: 14px
+				height: 2px
+				background-color: $var5	
+				
 	&_item_subtitle
 		padding-top: 92px
 		text-transform: uppercase
