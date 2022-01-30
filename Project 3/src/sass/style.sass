@@ -5,6 +5,7 @@ $var4: #222222
 $var5: #1EACC7
 $var6: #4CE2FF
 $var7: #202020
+$var8: #FF5656 
 
 
 =btn_hover
@@ -261,7 +262,7 @@ header .container
 				width: 14px
 				height: 2px
 				background-color: $var5
-			&::after
+			&:after
 				content: ''
 				display: block
 				position: absolute
@@ -270,6 +271,9 @@ header .container
 				width: 2px
 				background-color: $var5
 				transform: translateX(-50%)
+			&:hover
+				&:before, &:after
+					background-color: $var8
 				
 	&_item_subtitle
 		padding-top: 92px
