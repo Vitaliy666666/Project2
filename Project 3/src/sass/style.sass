@@ -260,7 +260,16 @@ header .container
 				display: block
 				width: 14px
 				height: 2px
-				background-color: $var5	
+				background-color: $var5
+			&::after
+				content: ''
+				display: block
+				position: absolute
+				left: 50% 
+				height: 14px
+				width: 2px
+				background-color: $var5
+				transform: translateX(-50%)
 				
 	&_item_subtitle
 		padding-top: 92px
