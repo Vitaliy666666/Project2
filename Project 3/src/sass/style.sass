@@ -311,7 +311,7 @@ header .container
 		z-index: 1
 
 .require
-	padding: 68px 0 98px 0
+	padding: 68px 0 85px 0
 	&_block
 		margin: 33px 0
 		&_nmb
@@ -325,24 +325,33 @@ header .container
 		margin-top: 20px
 		padding-left: 50px
 		li
+			position: relative
 			font-size: 17px
 			font-weight: 300
-			line-height: 20px
+			line-height: 24px
 			color: $var4
 			margin-bottom: 10px
 			&:before
 				content: ''
+				position: absolute
+				top: 2px
+				left: -33px
 				display: block
 				height: 20px
 				width: 21px
-				background: url('../icons/check_blue1.png') center center/cover no-repeat
-				
+				background: url('../icons/check_blue1.png') center center/cover no-repeat	
 	&_descr
 		color: $var9
-		font-weight: 400
+		font-weight: 300
 		font-size: 17px
 		line-height: 24px
-
+	.warning
+		.require_title
+			color: $var8	
+		.require_list
+			li
+				&:before
+					background: url('../icons/check_red2.png') center center/cover no-repeat			
 
 
 
