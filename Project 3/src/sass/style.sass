@@ -10,7 +10,6 @@ $var9: #1CA8C3
 $var10: #1FBAD6
 
 
-
 =btn_hover
 	&:hover
 		background-image: none
@@ -374,14 +373,38 @@ header .container
 		text-transform: uppercase
 		text-decoration: none
 footer
-	height: 156px
-	padding: 14px 24px 39px 24px
-.delimiter
-	display: block
-	margin: 0 auto
-	background-color: $var10
-	height: 7px
-	width: 301px
+	display: flex
+	justify-content: space-between
+	position: relative
+	padding: 50px 24px 39px 24px
+	&:before
+		content: ''
+		position: absolute
+		display: block
+		top: 14px
+		left: 50%
+		transform: translateX(-50%)
+		background-color: $var10
+		height: 7px
+		width: 301px
+	.footer_list
+		text-align: center
+		list-style: none
+		margin: 0
+		padding: 0
+		li
+			display: inline-block
+			margin-right: 45px
+			&:last-child
+				margin-right: 0
+	.footer_icons, .footer_menu, .footer_app
+		width: 30%
+	.footer_app
+		text-align: right
+
+
+
+
 	
 
 
