@@ -369,12 +369,12 @@ header .container
 		bottom: 50px
 		color: $var9
 		font-weight: 400
-		line-height: 68px
 		Font-size: 15px
 		text-align: center
 		text-transform: uppercase
 		text-decoration: none
 footer
+	max-height: 156px
 	display: flex
 	justify-content: space-between
 	position: relative
@@ -387,7 +387,7 @@ footer
 		left: 50%
 		transform: translateX(-50%)
 		background-color: $var10
-		height: 7px
+		height: 4px
 		width: 301px
 	.footer_icons
 		display: flex
@@ -436,11 +436,22 @@ footer
 			margin-right: 23px
 			&:last-child
 				margin-right: 0
-	
+	.footer_finish
+		display: block 
+		margin: 0 auto
+		text-align: center		
+		margin-top: 8px
+		&_language
+			color: $var10
+			text-transform: uppercase
+			font-size: 11px
+			font-weight: 400
+			text-decoration: none
 	.footer_icons, .footer_menu, .footer_app
 		width: 30%
 	.footer_app
 		text-align: right
+
 
 
 
